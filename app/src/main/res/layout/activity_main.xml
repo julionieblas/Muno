@@ -31,7 +31,7 @@
             android:text="Hola, \n comencemos"
             android:textColor="@color/white"
             android:textSize="30sp"
-            android:fontFamily="poppinslight"
+            android:fontFamily="@font/poppinslight"
             android:textStyle="italic" />
 
     </LinearLayout>
@@ -40,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@color/white"
         android:layout_marginRight="80dp"
         android:layout_marginLeft="80dp"
         android:orientation="vertical">
@@ -76,55 +77,53 @@
             android:inputType="textPersonName"
             android:hint="Confirmar Contraseña" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal">
-
-            <ListView
-                android:layout_width="88dp"
-                android:layout_height="34dp"
-                android:layout_marginLeft="43dp"
-
-
-                android:layout_marginRight="23dp" />
-
-            <ListView
-
-                android:layout_width="88dp"
-                android:layout_height="34dp"
-                android:layout_marginLeft="43dp" />
-        </LinearLayout>
-
-        <RadioButton
-            android:id="@+id/radioButtonCondiciones"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Acepto los terminos y condiciones" />
-
-        <Button
-            android:id="@+id/buttonAceptarInicio"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:background="@drawable/btn_redondo_azul"
-            android:text="Aceptar" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="¿Ya tienes una cuenta?" />
-
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ListView
+            android:layout_width="88dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="43dp"
 
 
+            android:layout_marginRight="23dp" />
 
+        <ListView
 
+            android:layout_width="88dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="43dp" />
+    </LinearLayout>
 
+    <RadioButton
+        android:id="@+id/radioButtonCondiciones"
+        android:layout_width="236dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="75dp"
+        android:gravity="center"
+        android:text="Acepto los terminos y condiciones" />
+
+    <Button
+        android:id="@+id/buttonAceptarInicio"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_redondo_azul"
+        android:text="Aceptar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="¿Ya tienes una cuenta?" />
 
 
 
