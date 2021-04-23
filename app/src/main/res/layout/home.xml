@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/perfil_hdpi" />
+        app:srcCompat="@drawable/perfilhdpi" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -46,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@drawable/tareas_hdpi" />
+        app:srcCompat="@drawable/tareashdpi" />
 
     <ImageButton
         android:id="@+id/btnProyectos"
@@ -61,7 +61,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTarea"
-        app:srcCompat="@drawable/proyectos_hdpi" />
+        app:srcCompat="@drawable/proyectoshdpi" />
 
     <ImageButton
         android:id="@+id/btnMensajes"
@@ -76,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnProyectos"
-        app:srcCompat="@drawable/mesajes_hdpi" />
+        app:srcCompat="@drawable/mesajeshdpi" />
 
     <ImageButton
         android:id="@+id/btnNotificaciones"
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnNotificaciones"
-        app:srcCompat="@drawable/almacenamiento_hdpi" />
+        app:srcCompat="@drawable/almacenamientohdpi" />
 
     <TextView
         android:id="@+id/textView"

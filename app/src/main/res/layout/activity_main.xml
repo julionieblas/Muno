@@ -102,7 +102,7 @@
 
     <RadioButton
         android:id="@+id/radioButtonCondiciones"
-        android:layout_width="236dp"
+        android:layout_width="273dp"
         android:layout_height="33dp"
         android:layout_marginLeft="75dp"
         android:gravity="center"
@@ -119,6 +119,7 @@
         android:text="Aceptar" />
 
     <TextView
+        android:id="@+id/et_registro_cuentaExistente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
