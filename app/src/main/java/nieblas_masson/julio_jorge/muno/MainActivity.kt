@@ -8,12 +8,12 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_registro)
 
         val textView : TextView = findViewById(R.id.et_registro_cuentaExistente) as TextView
 
         textView.setOnClickListener {
-            var i = Intent(this, IniciarSesionActivity::class.java)
+            var i = Intent(this, LoginActivity::class.java)
             startActivity(i)
         }
 

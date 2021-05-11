@@ -6,7 +6,7 @@
     android:background="@drawable/degradado_azul_lila"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IniciarSesionActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/et_iniSesion_correo"
+            android:id="@+id/et_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
@@ -46,7 +46,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_iniSesion_contraseña"
+                android:id="@+id/et_contra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="100dp"
@@ -58,7 +58,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_iniSesion_aceptar"
+            android:id="@+id/btn_ingresar"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
@@ -68,7 +68,26 @@
             android:text="Aceptar" />
 
         <TextView
-            android:id="@+id/tv_iniSesion_olvidarContra"
+            android:id="@+id/tv_iniSesion_yaienescuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#737784"
+            android:gravity="center"
+            android:text="¿Ya tienes una cuenta?"/>
+
+        <Button
+            android:id="@+id/btn_registrarse"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_redondo_azul"
+            android:text="Resgistrase"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_olvidasteContra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
