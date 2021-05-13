@@ -8,8 +8,8 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="270dp"
-        android:layout_height="95dp"
+        android:layout_width="341dp"
+        android:layout_height="81dp"
         android:layout_marginBottom="787dp"
         android:layout_weight="1"
         android:backgroundTint="#3F51B5"
@@ -22,8 +22,8 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="145dp"
-        android:layout_height="93dp"
+        android:layout_width="73dp"
+        android:layout_height="82dp"
         android:layout_marginBottom="787dp"
         android:layout_weight="1"
         android:backgroundTint="#3F51B5"

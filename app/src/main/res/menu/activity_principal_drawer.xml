@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tareas"
+            android:icon="@drawable/tareashdpi"
+            android:title="Tareas" />
+        <item
+            android:id="@+id/nav_proyectos"
+            android:icon="@drawable/proyectoshdpi"
+            android:title="Proyectos" />
+        <item
+            android:id="@+id/nav_mensajes"
+            android:icon="@drawable/mesajeshdpi"
+            android:title="Mensajes" />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@drawable/notificaciones_hdpi"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_almacenamiento"
+            android:icon="@drawable/almacenamientohdpi"
+            android:title="Almacenamiento" />
+    </group>
+</menu>
