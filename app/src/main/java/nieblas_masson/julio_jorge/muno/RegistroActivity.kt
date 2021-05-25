@@ -1,9 +1,7 @@
 package nieblas_masson.julio_jorge.muno
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import nieblas_masson.julio_jorge.muno.R
 import com.google.firebase.auth.FirebaseAuth
@@ -21,6 +19,34 @@ class RegistroActivity : AppCompatActivity() {
 
 
         val btn_registrar: Button = findViewById(R.id.btn_registrar)
+        val spinnerPais: Spinner = findViewById(R.id.spinner_pais)
+        //Crea un ArrayAdapter usando el string array y el default spinner layout
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.pais_array,
+            android.R.layout.simple_spinner_item
+        ).also {adapter ->
+            //Especifica el layout para usar cuando la lista de opciones aparecen
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
+            //Aplica el adapter al spinner
+            spinnerPais.adapter = adapter
+        }
+
+        btn_registrar.setOnClickListener{
+            valida_registro()
+        }
+        val spinnerGenero: Spinner = findViewById(R.id.spinner_genero)
+        //Crea un ArrayAdapter usando el string array y el default spinner layout
+        ArrayAdapter.createFromResource(
+            this,
+                    R.array.genero_array,
+                    android.R.layout.simple_spinner_item
+        ).also {adapter ->
+            //Especifica el layout para usar cuando la lista de opciones aparecen
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
+            //Aplica el adapter al spinner
+            spinnerGenero.adapter = adapter
+        }
 
         btn_registrar.setOnClickListener{
             valida_registro()
