@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@drawable/degradado_azul_lila"
+    android:background="@drawable/fondoiniciosesion"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
@@ -11,13 +11,13 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:src="@drawable/munoiconoxxhdpi" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:fontFamily="@font/poppinslight"
@@ -28,15 +28,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/et_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="105dp"
             android:inputType="textEmailAddress"
             android:hint="Correo" />
 
@@ -49,8 +49,8 @@
                 android:id="@+id/et_contra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
-                android:layout_marginRight="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="105dp"
                 android:inputType="textPassword"
                 android:hint="Contraseña">
             </com.google.android.material.textfield.TextInputEditText>
@@ -60,8 +60,8 @@
         <Button
             android:id="@+id/btn_ingresar"
             android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:textColor="@color/white"
             android:background="@drawable/btn_redondo_azul"
@@ -71,7 +71,7 @@
             android:id="@+id/tv_iniSesion_yaienescuenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textColor="#737784"
             android:gravity="center"
             android:text="¿Ya tienes una cuenta?"/>
@@ -79,9 +79,9 @@
         <Button
             android:id="@+id/btn_registrarse"
             android:layout_width="150dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/btn_redondo_azul"
             android:text="Resgistrase"
             android:textColor="@color/white" />
@@ -90,7 +90,7 @@
             android:id="@+id/tv_olvidasteContra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textColor="#737784"
             android:gravity="center"
             android:text="¿Olvidaste tu contraseña?"/>
@@ -98,7 +98,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="60dp"
             android:gravity="center"
             android:textSize="20sp"
             android:text="Conéctate con"/>
@@ -106,8 +106,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="58dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="100dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -115,14 +117,14 @@
                 android:id="@+id/logo_google"
                 android:layout_width="56dp"
                 android:layout_height="56dp"
-                android:layout_marginRight="20pt"
+                android:layout_marginRight="5pt"
                 android:src="@drawable/googlelogo" />
 
             <ImageView
                 android:id="@+id/logo_facebook"
                 android:layout_width="56dp"
                 android:layout_height="56dp"
-                android:layout_marginRight="20pt"
+                android:layout_marginRight="5pt"
                 android:src="@drawable/facebooklogo" />
 
             <ImageView
